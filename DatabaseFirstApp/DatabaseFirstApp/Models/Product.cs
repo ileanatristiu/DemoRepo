@@ -17,7 +17,9 @@ namespace DatabaseFirstApp.Models
         public int Supplierid { get; set; }
         public int Categoryid { get; set; }
         public decimal Unitprice { get; set; }
+
         public bool Discontinued { get; set; }
+        public bool Discontinued2 { get; set; }
 
         public virtual Category Category { get; set; }
         public virtual Supplier Supplier { get; set; }
